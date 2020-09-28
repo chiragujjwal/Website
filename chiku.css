@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding: 0;   
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to bottom,#ececec,#ececec);
+    padding: 0 !important;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+    opacity: 2;
+}
+.navbar-nav li{
+    padding: 0 10px; 
+}
+.navbar-nav li a{
+    color: rgb(51, 48, 48) !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars{
+    color: rgb(24, 24, 24);
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none;
+}
+/*-----------------banner-----------------*/
+#banner{
+    background-image: linear-gradient(to right,#ffffff,#ffffff);
+    color:rgb(23, 35, 53);
+    padding-top: 5%;
+
+}
+.promo_title{
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+/*---------------------ABOUT US-------------------*/
+.title::before{
+    content: '';
+    background: #000000;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after{
+    content: '';
+    background: #000000;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+.text-center{
+    font-size: 40px ;
+    font-weight: 700;
+}
+#about-us{
+    background: rgb(234,243,250);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-title{
+    margin-top: 8%;
+    font-weight: 600;
+    padding-left: 100px;
+}
+/*---------------footer section---------------*/
+#social-media{
+    background:#f8f9fa;
+    padding: 100px 0;
+}
+#social-media p{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
